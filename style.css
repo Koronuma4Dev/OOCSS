@@ -1,0 +1,50 @@
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+  .Heading{
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .btn {
+    background-color: #5643c2;
+    color: #ffffff;
+  }
+  
+
+  .btn--primary {
+    background-color: blue;
+    color: #ffffff;
+  }
+  
+
+  .btn--large {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgb(187, 75, 94);
+  }
+  
+
+  .btn--small {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: yellow;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  .btn:active {
+    transform: translateY(2px);
+  }
